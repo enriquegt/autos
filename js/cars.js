@@ -42,7 +42,7 @@ const cars = [
 
 //export default cars;
 let editingCar = false;
-let carid=5;
+let carid=6;
 
 function printCars() {
 
