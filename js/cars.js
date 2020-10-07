@@ -42,7 +42,7 @@ const cars = [
 
 //export default cars;
 let editingCar = false;
-let carid=6;
+let carId=cars.length+1;
 
 function printCars() {
 
@@ -126,7 +126,7 @@ function addCar() {
     const price = document.getElementById('price').value;
     // Creo un nuevo objeto carro
     const newCar = {
-        id: carid++,
+        id: carId++,
         brand: brand, model, color, age, price
     }
     // Agrego el nuevo carro
